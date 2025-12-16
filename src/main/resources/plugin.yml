@@ -1,5 +1,16 @@
 name: ChunkViewer
-version: '1.0-SNAPSHOT'
+version: 1.0
 main: org.smoky.chunkViewer.ChunkViewer
-api-version: '1.21'
-authors: [ Smoky ]
+api-version: 1.21
+
+commands:
+  chunkview:
+    description: チャンク境界表示
+    usage: /chunkview on|off
+    permission: chunkviewer.use
+    permission-message: "§cあなたはこのコマンドを使う権限がありません"
+
+permissions:
+  chunkviewer.use:
+    description: チャンクビューを使用可能にする権限
+    default: op
