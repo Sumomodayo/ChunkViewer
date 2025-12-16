@@ -1,0 +1,5 @@
+name: ChunkViewer
+version: '1.0-SNAPSHOT'
+main: org.smoky.chunkViewer.ChunkViewer
+api-version: '1.21'
+authors: [ Smoky ]
