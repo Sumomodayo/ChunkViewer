@@ -22,3 +22,4 @@ java版、統合版の両方使用可能です
 チャンク境界表示をオフにします。  
 すでにオフの場合は通知されます。
 
+![Download count](https://img.shields.io/github/downloads/Sm0kyday0/ChunkViewer/latest/total)
